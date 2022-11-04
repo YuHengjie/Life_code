@@ -278,9 +278,9 @@ st.write('')
 st.write('# Acknowledgements and notes ❤️')
 st.markdown(
     """
-    - This is a 100-day anniversary gift from yuyu to yaya.
-    - Yuyu says, he is very grateful for the appearance of yaya.
-    - Yuyu also says, he is lucky to have a girlfriend who can make him himself.
+    - This is a 100-day anniversary gift from Yuyu to Yaya (a very cute, pretty, kind, brave girl, Yuyu's girl).
+    - Yuyu says, he is very grateful for the appearance of Yaya.
+    - Yuyu also says, he is so lucky to have a girlfriend who can make him himself.
     - The website is constantly being updated, looking forward to the days when Yaya and Yuyu can be together every day.
 """
 )
