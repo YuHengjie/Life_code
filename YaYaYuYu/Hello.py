@@ -28,7 +28,7 @@ placeholder1 = st.empty()
 with placeholder1.container():
     f1,f2 = st.columns([1,1])
     with f1:
-        file_ = open("image/yayacartoon.gif", "rb")
+        file_ = open("YaYaYuYu/image/yayacartoon.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
