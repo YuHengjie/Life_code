@@ -37,7 +37,7 @@ with placeholder1.container():
         unsafe_allow_html=True,
         )
     with f2:
-        file_ = open("image/fishresize.gif", "rb")
+        file_ = open("YaYaYuYu/image/fishresize.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -60,7 +60,7 @@ col1, col2 = st.columns(2)
 with col1:
     emo = st.selectbox('',['（づ￣3￣）づ╭❤～','Happy','Not bad','Sad'])
     if emo == 'Happy':
-        file_ = open("image/happy.gif", "rb")
+        file_ = open("YaYaYuYu/image/happy.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -69,7 +69,7 @@ with col1:
         unsafe_allow_html=True,
         )
     if emo == 'Not bad':
-        file_ = open("image/notbad.gif", "rb")
+        file_ = open("YaYaYuYu/image/notbad.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -78,7 +78,7 @@ with col1:
         unsafe_allow_html=True,
         )
     if emo == 'Sad':
-        file_ = open("image/sad.gif", "rb")
+        file_ = open("YaYaYuYu/image/sad.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -92,7 +92,7 @@ with col2:
     st.markdown("<h3 style='text-align: center; color: black;'>See Yuyu\'s action </h3>", unsafe_allow_html=True)
 
     if emo == 'Happy':
-        file_ = open("image/happytwo.gif", "rb")
+        file_ = open("YaYaYuYu/image/happytwo.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -101,7 +101,7 @@ with col2:
         unsafe_allow_html=True,
         )
     if emo == 'Not bad':
-        file_ = open("image/notbadtwo.gif", "rb")
+        file_ = open("YaYaYuYu/image/notbadtwo.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -110,7 +110,7 @@ with col2:
         unsafe_allow_html=True,
         )
     if emo == 'Sad':
-        file_ = open("image/sadtwo.gif", "rb")
+        file_ = open("YaYaYuYu/image/sadtwo.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -233,7 +233,7 @@ st.write('')
 st.write('# Today\'s agenda 📰')
 agenda = st.selectbox('',['︿(￣︶￣)︿','Study','Exercise','Relax','Miss you'])
 if agenda=='Study':
-    file_ = open("image/wa.gif", "rb")
+    file_ = open("YaYaYuYu/image/wa.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
@@ -242,7 +242,7 @@ if agenda=='Study':
     unsafe_allow_html=True,
     ) 
 if agenda=='Exercise':
-    file_ = open("image/catmouse.gif", "rb")
+    file_ = open("YaYaYuYu/image/catmouse.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
@@ -251,7 +251,7 @@ if agenda=='Exercise':
     unsafe_allow_html=True,
     ) 
 if agenda=='Relax':
-    file_ = open("image/touchfish.gif", "rb")
+    file_ = open("YaYaYuYu/image/touchfish.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
@@ -260,7 +260,7 @@ if agenda=='Relax':
     unsafe_allow_html=True,
     ) 
 if agenda=='Miss you':
-    file_ = open("image/cutedog.gif", "rb")
+    file_ = open("YaYaYuYu/image/cutedog.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
