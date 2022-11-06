@@ -24,28 +24,8 @@ st.write("")
 st.write("")
 
 # %%
-placeholder1 = st.empty()
-with placeholder1.container():
-    f1,f2 = st.columns([1,1])
-    with f1:
-        file_ = open("YaYaYuYu/image/yayacartoon.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-        st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" >',
-        unsafe_allow_html=True,
-        )
-    with f2:
-        file_ = open("YaYaYuYu/image/fishresize.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-        st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" >',
-        unsafe_allow_html=True,
-        )
-
+image = Image.open('YaYaYuYu/image/main_page_imgae.jpg')
+st.image(image)
 
 # %%
 st.write('')
