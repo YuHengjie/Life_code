@@ -105,7 +105,7 @@ st.write('')
 st.write('')
 
 # %%
-st.write('# Weather forecast, Take care 🌧️🌥️')
+st.write('# Weather forecast, take care 🌧️🌥️')
 
 # %%
 
@@ -165,7 +165,7 @@ temp=str(round(x["main"]["temp"]-cel,2))
 
 col1, col2 = st.columns(2)
 with col1:
-    st.write("## Current Temperature ")
+    st.write("## Current temperature ")
 with col2:
     st.image(f"http://openweathermap.org/img/wn/{icon}@2x.png",width=70)
 
@@ -175,7 +175,7 @@ col1.metric("TEMPERATURE",temp+temp_unit)
 col2.metric("WEATHER",current_weather)
 
 # %%
-st.write("## Today's Weather ")
+st.write("## Today's weather ")
 col1, col2, col3, col4= st.columns(4)
 temp_unit = " °C"
 humidity_unit = ' %'
@@ -190,7 +190,7 @@ windspeed = y['daily'][0]['wind_speed']
 col4.metric("WINDSPEED", f'{windspeed}'+ windspeed_unit)
 
 # %%
-st.write("## Tomorrow's Weather ")
+st.write("## Tomorrow's weather ")
 col1, col2, col3, col4= st.columns(4)
 temp_unit = " °C"
 humidity_unit = ' %'
